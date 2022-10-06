@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: rgb(36, 13, 13);
+  margin-top: 0px;
+}
+
+header button {
+  margin-left: 250px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+li {
+  margin: 20px;
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #29d9d5;
+}
+
+button {
+  border-radius: 20px;
+  color: #29d9d5;
+  border: 1px solid #29d9d5;
+  background-color: transparent;
+  width: 80px;
+  height: 30px;
+  margin: 12px 20px;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #29d9d5;
+  color: rgb(36, 13, 13);
+}
+
+main {
+  margin: 30px 60px;
+}
+
+#blog {
+  background-color: rgb(255, 219, 228);
+  border-radius: 10px;
+  text-align: center;
+}
+
+#blog h2 {
+  padding: 10px 0 0 10px;
+  text-align: left;
+  margin-bottom: 0px;
+  color: rgb(0, 0, 185);
+}
+
+#blog p {
+  text-align: left;
+  padding: 0px 0px 25px 10px;
+}
+
+.three {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+
+.three1 img {
+  width: 370px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.three1 img:hover {
+  color: #29d9d5;
+}
+
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 30px 30px 20px 30px;
+  color: #2f2f2f;
+  background-color: #fff;
+  border-top: 1px solid #e5e5e5;
+}
+
+#your-journey {
+  background-image: url("https://media.istockphoto.com/photos/home-away-from-home-picture-id865624016?k=20&m=865624016&s=612x612&w=0&h=yXj3PV1uJaN-8qlzcXQ3Du97LafG1iASvNuUeSqBv7c=");
+  background-color: #cccccc;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#your-journey h1 {
+  color: white;
+  padding: 0 0 20px 0;
+}
+
+#your-journey h2 {
+  color: #29d9d5;
+  padding: 20px;
+}
+
+#your-journey p {
+  color: white;
+  padding: 0 1 50px 20px 150px;
+}
+
+footer {
+  background-color: black;
+  height: 300px;
+  margin: 0;
+}
